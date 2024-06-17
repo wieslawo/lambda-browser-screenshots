@@ -1,15 +1,15 @@
 {
   "name": "lambda-browser-screenshotter",
-  "version": "2.0.1",
+  "version": "2.1.0",
   "description": "Take screenshots of web pages.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Ben Shaw",
+  "author": "Ben Shaw, Wieslaw Olborski",
   "license": "Apache License 2.0",
-  "dependencies": {
-    "chrome-aws-lambda": "^10.1.0",
-    "puppeteer-core": "^10.1.0"
+  "dependencies": {   
+    "@sparticuz/chromium-min": "^119.0.2",
+    "puppeteer-core": "^21.5.0"
   }
 }
