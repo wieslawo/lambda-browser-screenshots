@@ -1,4 +1,3 @@
-// const chromium = require('chrome-aws-lambda');
 const puppeteer = require('puppeteer-core');
 const chromium = require('@sparticuz/chromium-min');
 const DEFAULT_WIDTH = 1280;

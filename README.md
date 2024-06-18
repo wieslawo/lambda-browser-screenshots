@@ -1,5 +1,7 @@
 # Lambda Browser Screenshots
 
+This is fork of github project https://github.com/beneboy/lambda-browser-screenshots but this is old code which works with Node 14.x, in June 2024 Node 14.x is not supported by AWS. For Node 18.x modifications done base on https://konarskis.substack.com/p/puppeteer-aws-lambda?triedRedirect=true.
+
 [AWS Lambda](https://aws.amazon.com/lambda/) function that gives a REST API that returns a PNG screenshot of a given 
 URL. Small and easy to deploy without having to worry about S3.
 
@@ -66,3 +68,6 @@ versions of Puppeteer and Chromium have bugs to deal with and don't work right.
 This is a ready-to-go solution that you can build and upload to AWS Lambda without having to waste time trying to sort
 out dependencies. When packaged it's less than 50MB including the `node_modules` you can easily upload to Lambda without
 having to go via S3.
+
+## Modifications
+Base code need to bu upgraded, used information from https://konarskis.substack.com/p/puppeteer-aws-lambda?triedRedirect=true
